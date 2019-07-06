@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title>My First calculatort</title>
+</head>
+
+<body>
+<h1> My First Calculator </h1>
+<div class="forms">
+<form name="forms">
+<input type="text" placeholder="Write Numbers" name="answer" id="clearAll"> 
+<br> <br>
+
+<input type="button" value="1" onclick="forms.answer.value += '1' " >
+<input type="button" value="2" onclick="forms.answer.value += '2' " >
+<input type="button" value="3" onclick="forms.answer.value += '3' " >
+<input type="button" value="4" onclick="forms.answer.value += '4' " >
+<br> <br>
+<input type="button" value="5" onclick="forms.answer.value += '5' " >
+<input type="button" value="6" onclick="forms.answer.value += '6' " >
+<input type="button" value="7" onclick="forms.answer.value += '7' " >
+<input type="button" value="8" onclick="forms.answer.value += '8' " >
+<br> <br>
+<input type="button" value="9" onclick="forms.answer.value += '9' " >
+<input type="button" value="+" onclick="forms.answer.value += '+' " >
+<input type="button" value="-" onclick="forms.answer.value += '- ' " >
+<input type="button" value="/" onclick="forms.answer.value += '/' " >
+<br> <br>
+<input type="button" value="*" onclick="forms.answer.value += '*' " >
+<input type="button" value="0" onclick="forms.answer.value += '0' " >
+<input type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value)" > <br><br>
+
+<input type="button" value="Clear All" onclick="forms.answer.value = '' " id="clearAll" >
+
+
+
+</form>
+</div>
+</body>
+</html>
